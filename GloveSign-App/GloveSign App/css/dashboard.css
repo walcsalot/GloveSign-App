@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat", serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  padding: 5px 10px 5px 10px;
+  align-items: center;
+}
+
+.dash {
+  margin-left: 10px;
+  font-size: 21px;
+  font-style: italic;
+}
+
+.profile {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  margin-left: 10px;
+}
+
+.bluetooth {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 0 10px;
+}
+
+.bluetooth-text {
+  margin-left: 15px;
+}
+
+.text-2 {
+  margin: 10px 0 0 10px;
+}
+
+.box {
+  margin-top: 10px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ffffff91;
+  box-shadow: 0.5px 1px 4px;
+}
+
+.state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-show {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+button {
+  border: 1px solid #27b2f0;
+  padding: 10px 20px 10px 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.speaker {
+  margin-left: 10px;
+}
